@@ -6,3 +6,9 @@ sssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 
 
 this is a test series to add the ai-agent
+
+<<<<<<< HEAD
+Some content
+=======
+Other content
+>>>>>>> branch
