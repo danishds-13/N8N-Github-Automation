@@ -1,15 +1,15 @@
 // index.js
-const fs = require("fs");
+const fs = require("fs")
 const https = require("https");
-
+;
 const LOG_FILE = "app.log";
-const URLS = [
+const URLS = 
   "https://jsonplaceholder.typicode.com/posts/1",
   "https://jsonplaceholder.typicode.com/posts/2",
   "https://jsonplaceholder.typicode.com/posts/3",
 ];
 
-// ---- Logger ----
+ ---- Logger ----
 function log(message) {
   const entry = `[${new Date().toISOString()}] ${message}\n`;
   fs.appendFileSync(LOG_FILE, entry);
